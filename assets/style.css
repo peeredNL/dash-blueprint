@@ -1,0 +1,24 @@
+/* set default colors */
+:root {
+  --orange: #ff9902;
+  --dblue: #00537d;
+  --lblue: #0299dd;
+  --dark: #374742;
+}
+nav.bg-dark {
+	background-color: var(--dblue) !important;
+}
+.jumbotron {
+	overflow-x: scroll;
+}
+.jumbotron > h1 {
+	color: var(--dblue) !important;
+	font-size: 3.5rem;
+	text-align: center;
+	font-weight: 500;
+}
+.jumbotron > p {
+	font-weight: 100;
+	text-align: center;
+	font-size: 1rem;
+}
